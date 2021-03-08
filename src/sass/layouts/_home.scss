@@ -1,0 +1,127 @@
+@use '../abstracts' as *;
+
+.hero {
+  margin-bottom: var(--section-spacing);
+  display: grid;
+  gap: 1em;
+  grid-template-areas: 
+    "heading"
+    "image"
+    "paragraph";
+
+  @include mq(small) {
+    grid-template-areas:
+      "image heading"
+      "paragraph paragraph";
+  }
+  @include mq(medium) {
+    grid-template-areas:
+      "image heading"
+      "image paragraph";
+  }
+
+  &__title {
+    grid-area: heading;
+    font-size: var(--fs-600);
+    color: var(--clr-neutral-100);
+    padding: .5rem 0;
+  }
+
+  &__paragraph {
+    grid-area: paragraph;
+  }
+
+  picture {
+    overflow: hidden;
+    border-radius: .5em;
+    border: .5em solid white;
+    transform: rotateY(180deg);
+    grid-area: image;
+    background: white;
+    align-self: start;
+    
+    box-shadow: 0 .5em 1em rgba(black, .15);
+
+    & > img {
+      border-radius: .25em;
+      width: inherit;
+      height: 100%;
+      max-width: inherit;
+      max-height: inherit;
+      min-width: inherit;
+      object-fit: cover;
+      object-position: center;
+    }
+
+    @include mq(small) {
+      width: 25vw;
+      height: 100%;
+      min-width: 15rem;
+      max-width: 17.5rem;
+      max-height: 25rem;
+    }
+  }
+
+  @include pseudo(
+    $top: -.5em, 
+    $bottom: -.5em, 
+    $left: -.5em, 
+    $right: -.5em, ) {
+    background-color: var(--clr-primary-400);
+    background-image: linear-gradient(
+      145deg, var(--clr-youtube-400), var(--clr-primary-300)
+    );
+    grid-row: 1 / 2;
+    z-index: -1;
+    border-radius: 1em;
+  };
+}
+
+.home-section {
+  
+  header {
+    width: max-content;
+    text-align: right;
+  }
+
+  padding: var(--section-spacing) 0;
+
+  & h2 {
+    font-size: var(--fs-700);
+    color: var(--clr);
+    line-height: .8;
+
+
+    & + p {
+      --font-weight: 300;
+      color: var(--clr-neutral-700);
+      margin-top: 0;
+      // background: var(--clr);
+      // width: max-content;
+      // padding: .25em 1.25em;
+      font-size: .85em;
+      border-radius: .4em;
+      margin-bottom: 2em;
+    }
+  }
+}
+
+.home-section.youtube {
+  background-image: 
+    url('../img/youtube.svg'),
+    linear-gradient(120deg, var(--clr-neutral-100), var(--clr-youtube-100));
+  background-repeat: no-repeat;
+  background-position: center, top left;
+  background-size: 55rem, 400%;
+}
+
+.home-section.course {
+  // --clr: white;
+  color: var(--clr-neutral-100);
+  background-color: var(--clr-course-400);
+  background-image: linear-gradient(
+    120deg, 
+    var(--clr-article-400),
+    var(--clr-course-400)
+  );
+}

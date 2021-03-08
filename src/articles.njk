@@ -1,0 +1,56 @@
+---
+title: My Articles
+layout: pages.njk
+bodyClass: article
+eleventyNavigation: 
+  key: Articles
+  order: 200
+pagination:
+  data: collections.post
+  size: 8
+  alias: posts
+  reverse: true
+---
+
+{# https://github.com/JKC-Codes/eleventy-plugin-code-style-hooks/ #}
+
+{% for post in posts %}
+  <article class="article-snippet flow">
+    <h2 class="text-neutral-800 article-snippet-title">{{ post.data.title }}</h2>
+    {{ post.data.page.excerpt | md | safe }}
+    <a class="button" href="{{ post.url | url }}">Read more</a>
+  </article>
+{% endfor %}
+
+{# 
+<ol>
+  {% for post in posts %}
+    <li>
+      <a href="{{ post.url | url }}">{{ post.data.title }}</a>
+    </li>
+  {% endfor %}
+</ol> #}
+
+<nav aria-labelledby="my-pagination" class="flow">
+  <h2 id="my-pagination">More articles</h2>
+  <ol class="pagination" role="list">
+    {%- if pagination.pageNumber !== 0 -%}
+      <li>
+        <a href="{{ pagination.href.previous}}">Previous</a>
+      </li>
+    {%- endif -%}
+    {%- for pageEntry in pagination.pages %}
+
+      <li>
+        <a href="{{ pagination.hrefs[ loop.index0 ] }}" {% if page.url == pagination.hrefs[ loop.index0 ] %} aria-current="page" class="current-page" {% endif %}>
+          <span class="sr-only">Page</span>
+          {{ loop.index }}</a>
+      </li>
+    {%- endfor %}
+    {%- if pagination.href.last !== page.url -%}
+      <li>
+        <a href="{{ pagination.href.next}}">Next</a>
+      </li>
+    {%- endif -%}
+  </ol>
+</nav>

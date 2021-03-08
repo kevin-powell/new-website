@@ -1,0 +1,7 @@
+{
+  "layout": "article.njk",
+  "tags": "post",
+  "bodyClass": "article",
+  "permalink": "article/{{ page.fileSlug }}/index.html"
+}
+

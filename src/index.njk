@@ -1,5 +1,95 @@
 ---
 layout: base.njk
 title: Hello World
+eleventyNavigation:
+  key: Home
+  order: 100
 ---
+<div class="container">
+  <section class="hero">
+    <h1 class="hero__title">
+      Hi, I'm Kevin. I teach people how to make the web and how to make it look good while they're at it.
+    </h1>
+    <div class="hero__paragraph flow">
+      <p>
+        I learned to make websites on my own. I know how fun and rewarding it is, but I also know that it can be incredibly frustrating.
+        <strong>I'm here to help make your journey into web development as easy and as fun as possible</strong>.
+      </p>
+      <p>
+        Whether you're trying to learn what you need to tweak your small business' website or you're looking to jump start a new career, I'm here to help.
+      </p>
+    </div>
 
+    {% image "./src/img/kevinpowell.jpg",
+    "photo of kevin powell" %}
+  </section>
+</div>
+
+<section class="home-section youtube">
+  <div class="container flow">
+    <header>
+      <h2 class="section__title">youtube</h2>
+      <p class="section__subtitle">learn for free</p>
+    </header>
+    <p>
+      <strong>Weekly front-end web development &amp; design tips, tricks, and tutorials</strong>. With a focus on HTML &amp; CSS, along with a splash of JS, my videos focus on understanding
+      <strong>fundamental concepts</strong>, others explore
+      <strong>little known or often misused CSS properties</strong>, and there are long series that explore taking everything and
+      <strong>building out actual pages</strong>.
+    </p>
+    <a href="https://youtube.com/kevinpowell" class="button">watch on yt</a>
+  </div>
+
+</section>
+
+<section class="home-section article">
+  <div class="container flow">
+    <header>
+      <h2 class="section__title">articles</h2>
+      <p class="section__subtitle">quick hit tips &amp; tricks</p>
+    </header>
+    <p>
+      While creating my YouTube videos, I come across a lot of
+      <strong>fun snippets of information</strong>
+      and
+      <strong>little known CSS properties</strong>
+      that aren't really worth building full videos about.
+    </p>
+    <p>
+      I share these little bits of information — plus the occasional deep dive — through my articles.
+    </p>
+    <a href="/articles" class="button">let's get reading</a>
+  </div>
+</section>
+
+<section class="home-section course">
+  <div class="container flow">
+    <header>
+      <h2 class="section__title text-neutral-100">courses</h2>
+      <p class="section__subtitle text-neutral-100">step up your front-end game</p>
+    </header>
+    <p>
+      <strong>Premium courses to help you step up your front-end game in short order.</strong>
+    </p>
+    <p>
+      While there are a ton of free resources out there, it can be hard to figure out which ones are good, which are bad, and in what order to follow them in. Because of that, I’ve decided to start creating premium courses to help.
+      <strong>They are deep dives into specific topics, helping you level up your game in as little time as possible</strong>.
+    </p>
+    <p>
+      As it stands now, I only have one course: Sass: From beginner to real world, but there are more on the way 🙂
+    </p>
+    <a href="/courses" class="button" data-reverse="true">let's step up my game</a>
+  </div>
+</section>
+
+<section class="home-section patreon" style="--clr: #e12911">
+  <div class="container flow">
+    <header>
+      <h2 class="section__title">patreon</h2>
+      <p class="section__subtitle">help support me</p>
+    </header>
+    <p>Patreon is a nice, simple way to support creators who provide you with value. Thanks to my patrons I've been able to upgrade my equipment a few times now, and they've enabled me to devote more time to making videos.</p>
+
+    <a href="https://patreon.com/kevinpowell" class="button">support me on Patreon</a>
+  </div>
+</section>

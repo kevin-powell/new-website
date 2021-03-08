@@ -1,0 +1,34 @@
+.pagination {
+  list-style: none;
+  margin: 1rem 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+
+  &>li+li {
+    margin-left: 3rem;
+  }
+
+  a {
+    color: var(--clr-neutral-800);
+
+    &:hover,
+    &:focus {
+      color: var(--clr-primary-400);
+      text-decoration: none;
+    }
+  }
+}
+
+.current-page {
+  --font-weight: 750;
+  background-color: var(--clr);
+  color: var(--clr-neutral-100) !important;
+  width: 2.5ch;
+  height: 2.5ch;
+  border-radius: 100%;
+  display: grid;
+  place-items: center;
+  text-decoration: none;
+  pointer-events: none;
+}

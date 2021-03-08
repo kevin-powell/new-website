@@ -1,17 +1,36 @@
+---
+  metadata: 
+    url: https://kevinpowell.co
+---
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>{{ title }}</title>
-	<link rel="stylesheet" href="{{ '/css/style.css' | url }}" />
-</head>
-<body>
-	<header>
-		<h1>{{ title }}</h1>
-	</header>
-	<main>
-	{{ content | safe }}
-	</main>
-</body>
+		<head>
+				<meta charset="UTF-8">
+				<meta name="viewport" content="width=device-width, initial-scale=1.0">
+				<title>{{ title }}</title>
+				<meta http-equiv="X-UA-Compatible" content="ie=edge">
+				<meta name="description" content="{% if description %}{{ description }}{% else %}{{ site.description }}{% endif %}">
+
+				<meta property="og:title" content="{% if social-title %}{{ social-title }}{% else %}{{ title }} | {{ title }}{% endif %}">
+				<meta property="og:description" content="{% if social-description %}{{ social-description }}{% elif  description %}{{description}}{% else %}{{ description }}{% endif %}">
+				<meta property="og:url" content="{{ page.url | url | absoluteUrl(metadata.url) }}">
+				<meta property="og:image" content="{% if social-image %}{{ social-image }}{% else %}{{ site.url | url | absoluteUrl(metadata.url) }}img/brand-icon.png{% endif %}">
+				<meta name="twitter:image" content="{% if social-image %}{{ social-image }}{% else %}{{ site.url | url | absoluteUrl(metadata.url) }}img/brand-icon.png{% endif %}">
+				<meta name="twitter:card" content="summary_large_image">
+
+				<link rel="stylesheet" href="{{ '/css/prism.css' | url }}"/>
+				<link rel="stylesheet" href="{{ '/css/style.css' | url }}"/>
+
+		</head>
+		<body class="{{ bodyClass }}">
+				<header>
+						{% include 'navigation.njk' %}
+				</header>
+				<main>
+						{{ content | safe }}
+				</main>
+
+				{% include 'footer.njk' %}
+		</body>
 </html>

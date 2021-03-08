@@ -1,0 +1,42 @@
+---
+title: Courses
+layout: pages.njk
+bodyClass: course
+eleventyNavigation:
+  key: Courses
+  order: 400
+---
+
+<p>Below are all my courses. Some are currently open for registration, others are being worked on. If a course is closed, you can sign up on the page to be notified of when it opens for registrations 😊.</p>
+
+<div class="course-grid">
+  {% for course in collections.courses %}
+    <div class="course-card flow">
+      <h2 class="course-title">
+        <a href="{{ course.data.link }}">{{ course.data.title }}</a>
+      </h2>
+      <p class="label">
+        {% if course.data.premium %}
+          premium
+        {% else %}
+          free
+          {% endif%}
+        </p>
+        <p class="label">
+          {% if course.data.open %}
+            open
+          {% else %}
+            closed
+            {% endif%}
+          </p>
+          <div class="course-description flow">
+            {{ course.templateContent | safe }}
+          </div>
+          {% if course.data.open %}
+            <a href="{{ course.data.link }}" class="button">Enroll now</a>
+          {% else %}
+            <a href="{{ course.data.link }}" class="button">Sign up for updates</a>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>

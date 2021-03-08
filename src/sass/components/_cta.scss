@@ -1,0 +1,44 @@
+@use '../abstracts' as *;
+
+.cta {
+  margin: 2rem 0;
+  padding: 2rem;
+  background: var(--clr-neutral-200);
+
+  @include mq(small) {
+    padding: 4rem;
+    margin: 4rem 0;
+  }
+
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 20rem));
+    gap: 1em;
+    margin-bottom: 1rem;
+    
+  }
+
+  & input {
+    width: 100%;
+    padding: .35em .75em .25em;
+    font-size: .9em;
+  }
+
+  & label {
+    --font-weight: 700;
+    font-size: .8em;
+  }
+
+  &__fine-print {
+    font-size: .8em;
+  }
+}
+
+.formkit-checkboxes {
+  display: flex;
+  margin: .5em 0;
+}
+
+input.formkit-checkbox {
+  width: max-content
+}
