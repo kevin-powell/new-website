@@ -15,3 +15,13 @@ collections:
       - { label: "Description", name: "description", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Body", name: "body", widget: "markdown" }
+  - name: "course"
+    label: "Course"
+    folder: "src/courses"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Price", name: "premium", widget: "string" }
+      - { label: "Link", name: "link", widget: "string" }
+      - { label: "Open/Closed", name: "open", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
