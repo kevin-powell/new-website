@@ -1,5 +1,5 @@
 backend:
-  name: new-website
+  name: git-gateway
   branch: main
   publish_mode: editorial_workflow
 media_folder: "img/uploads"
