@@ -20,23 +20,23 @@ eleventyNavigation:
           premium
         {% else %}
           free
-          {% endif%}
-        </p>
-        <p class="label">
-          {% if course.data.open %}
-            open
-          {% else %}
-            closed
-            {% endif%}
-          </p>
-          <div class="course-description flow">
-            {{ course.templateContent | safe }}
-          </div>
-          {% if course.data.open %}
-            <a href="{{ course.data.link }}" class="button">Enroll now</a>
-          {% else %}
-            <a href="{{ course.data.link }}" class="button">Sign up for updates</a>
-          {% endif %}
-        </div>
-      {% endfor %}
+        {% endif %}
+      </p>
+      <p class="label">
+        {% if course.data.open %}
+          open
+        {% else %}
+          closed
+        {% endif %}
+      </p>
+      <div class="course-description flow">
+        {{ course.templateContent | safe }}
+      </div>
+      {% if course.data.open %}
+        <a href="{{ course.data.link }}" class="button">Enroll now</a>
+      {% else %}
+        <a href="{{ course.data.link }}" class="button">Sign up for updates</a>
+      {% endif %}
     </div>
+  {% endfor %}
+</div>
