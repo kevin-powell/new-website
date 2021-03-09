@@ -13,12 +13,13 @@
 
 .course-card {
   // overflow: hidden;
-  --clr: var(--clr-course-400);
   padding: 2em;
   border-radius: .5em;
   box-shadow: 0 .25em 1em rgba(black, .1);
 
   h2 a {
+      color: var(--clr-neutral-800);
+
     text-decoration: none;
     
     &:hover,

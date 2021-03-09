@@ -3,10 +3,16 @@
   display: inline-block;
   font-size: var(--fs-300);
   color: var(--clr-neutral-800);
-  background: var(--clr-neutral-200);
   width: max-content;
-  padding: .125em .75em;
-  border-radius: 100vw;
   margin-top: 0;
   margin-right: .25em;
+
+  & + &::before {
+    display: inline-block;
+    content: '';
+    border-left: 2px solid var(--clr-neutral-800);
+    opacity: .25;
+    padding-left: .25em;
+    height: 1.25ex;
+  }
 }
