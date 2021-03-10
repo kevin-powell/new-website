@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /newsletter-success
+Disallow: /sass-success
+Disallow: /so-close
+Disallow: /updated
+Disallow: /you-did-it
+Disallow: /newsletter-almost-there
+
