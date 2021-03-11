@@ -23,16 +23,11 @@ class: community
     <div data-element="fields" data-stacked="true" class="seva-fields formkit-fields cta__grid">
       <div class="formkit-field">
         <input class="formkit-input" aria-label="First Name" name="fields[first_name]" placeholder="First Name" type="text">
-
       </div>
       <div class="formkit-field">
         <input class="formkit-input" aria-label="Email address" name="email_address" placeholder="Your email address" required="" type="email">
-
       </div>
     </div>
-
     <button data-element="submit" class="formkit-submit formkit-submit button button__cta">
         <div class="formkit-spinner"><div></div><div></div><div></div></div><span>Subscribe</span></button>
-
-    <span class="formkit-guarantee cta__fine-print" data-element="guarantee">We won't send you spam. Unsubscribe at any time.</span>
-    
+    <span class="formkit-guarantee cta__fine-print" data-element="guarantee">I won't send you spam. Unsubscribe at any time.</span>
