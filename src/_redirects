@@ -1,0 +1,8 @@
+# Redirects from what the browser requests to what we serve
+# /youtube            https://www.youtube.com/kevinpowell                   302!
+/learn-sass           https://www.kevinpowell.co/courses                    302!
+/sass-course          https://www.kevinpowell.co/courses                    302!
+/membership           https://pages.convertkit.com/a30501c964/8d1c15b4b1    302!
+/learn-responsive     https://scrimba.com/g/gresponsive       
+/demystify            https://cssdemystified.com
+/sass                 https://learnsass.com

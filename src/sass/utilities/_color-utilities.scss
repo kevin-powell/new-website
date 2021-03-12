@@ -1,14 +1,12 @@
 @use "../abstracts" as *;
 
-// Take all the colours in the colors map
-// and output text- and bg- classes 
 @each $color,
 $shade in $colors {
 
   @each $prop,
   $value in $shade {
     .text-#{$color}-#{$prop} {
-      color: var(--clr-#{$color}-#{$prop}) importa !important;
+      color: var(--clr-#{$color}-#{$prop}) !important;
     }
 
     .bg-#{$color}-#{$prop} {
@@ -16,6 +14,21 @@ $shade in $colors {
     }
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .primary {
   --clr: var(--clr-primary-400);
