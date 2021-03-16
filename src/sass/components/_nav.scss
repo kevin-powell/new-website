@@ -37,6 +37,9 @@
     &:nth-child(4) {
       --clr: var(--clr-course-400);
     }
+    &:nth-child(5) {
+      --clr: var(--clr-resource-400);
+    }
 
   &.active a {
     text-decoration-thickness: .25em;
