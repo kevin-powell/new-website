@@ -1,0 +1,11 @@
+body::-webkit-scrollbar {
+  width: 1rem;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--clr-neutral-300);        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--clr-neutral-900);    /* color of the scroll thumb */
+}

@@ -11,3 +11,19 @@
   width: 1px !important;
   white-space: nowrap !important;
 }
+
+.screenreader-text {
+  position: absolute;
+  left: -999px;
+  width:1px;
+  height: 1px;
+  top: auto;
+
+  &:focus {
+    display: inline-block;
+    height: auto;
+    width: auto;
+    position: static;
+    margin: auto;
+  }
+}
