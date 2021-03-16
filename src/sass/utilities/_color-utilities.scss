@@ -15,21 +15,6 @@ $shade in $colors {
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .primary {
   --clr: var(--clr-primary-400);
 }
@@ -41,4 +26,7 @@ $shade in $colors {
 }
 .course {
   --clr: var(--clr-course-400);
+}
+.resource {
+  --clr: var(--clr-resource-400);
 }
