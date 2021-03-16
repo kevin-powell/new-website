@@ -24,9 +24,12 @@
 		</head>
 		<body class="{{ bodyClass }}">
 				<header>
-						{% include 'navigation.njk' %}
+					<a id='skip-nav' class='screenreader-text' href='#main-content'>
+						Skip to Content
+					</a>
+					{% include 'navigation.njk' %}
 				</header>
-				<main>
+				<main id="main-content">
 						{{ content | safe }}
 				</main>
 
