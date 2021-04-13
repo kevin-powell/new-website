@@ -21,7 +21,7 @@ collections:
     create: true
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Price", name: "premium", widget: "string" }
+      - { label: "Premium", name: "premium", widget: "boolean", default: true }
       - { label: "Link", name: "link", widget: "string" }
-      - { label: "Open/Closed", name: "open", widget: "string" }
+      - { label: "Open", name: "open", widget: "boolean", default: false }
       - { label: "Body", name: "body", widget: "markdown" }
