@@ -2,7 +2,7 @@
 title: Flexbox Simplified
 premium: true
 link: https://flexboxsimplified.com
-open: false
+open: true
 ---
 Getting started with flexbox is easy. A nice little display: flex and you have columns.
 
