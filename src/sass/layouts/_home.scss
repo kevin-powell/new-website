@@ -124,4 +124,8 @@
     var(--clr-article-400),
     var(--clr-course-400)
   );
+
+  a:not([class]) {
+    color: white;
+  }
 }
