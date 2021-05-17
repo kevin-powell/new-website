@@ -3,12 +3,14 @@
 .course-grid {
   display: grid;
   gap: 2rem;  
-  grid-template-columns: 
-    repeat(auto-fit, minmax(25rem, 1fr));
   grid-template-rows: masonry;
   align-items: start;
   margin: 6rem calc(30% - 30vw);
   padding: 0 1rem;
+
+  @media (min-width: 27em) {
+      grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  }
 }
 
 .course-card {
