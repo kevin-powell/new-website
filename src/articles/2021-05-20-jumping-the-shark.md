@@ -22,6 +22,8 @@ When editing it, I realized it wasn't the type of content most people subscribe 
 
 It seems that people have enjoyed it for the most part, **but some people feel that perhaps I jumped the shark* with that one**. And yeah, they're probably right 😂.
 
+<!--more-->
+
 *\*jumping the shark means going too far over the top and away from the original content. It's from the TV show* Happy Days *where one of the characters was water skiing and literally jumped over a shark.*
 
 Those comments made me reflect a bit on my brand, and what I make videos for in the first place.
