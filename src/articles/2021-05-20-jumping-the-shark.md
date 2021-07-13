@@ -20,7 +20,9 @@ It was a blast to do live, and the chat was really into it, so I decided to edit
 
 When editing it, I realized it wasn't the type of content most people subscribe to me for, but I thought it might be a fun way to break up the monotony on there as well.
 
-It seems that people have enjoyed it for the most part, __but some people feel that perhaps I jumped the shark* with that one__. And yeah, they're probably right 😂.
+It seems that people have enjoyed it for the most part, **but some people feel that perhaps I jumped the shark* with that one**. And yeah, they're probably right 😂.
+
+<!--more-->
 
 *\*jumping the shark means going too far over the top and away from the original content. It's from the TV show* Happy Days *where one of the characters was water skiing and literally jumped over a shark.*
 
