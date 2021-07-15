@@ -4,7 +4,6 @@ description: A lot of people have come to call me The King of CSS lately. While
   I appreciate the sentiment, the title doesn't fit.
 date: 2021-07-13T17:29:44.106Z
 ---
-
 A lot of people have started to call me The King of CSS lately. While I appreciate the sentiment, the title doesn't fit.
 
 ## How it started
@@ -13,13 +12,13 @@ A while back, I joined Kyle of [Web Dev Simplified](https://www.youtube.com/c/We
 
 It was a blast, and the response was fantastic, **but there was one downside to it**. During the video, Kyle called me the King of CSS, and it seems to have stuck.
 
-In the comments on my videos and over on Twitter, people drop _The King_ thing all the time.
+In the comments on my videos and over on Twitter, people drop *The King* thing all the time.
 
 "Oh come on Kevin, just relax and take the compliment!"
 
 I know, I know. Maybe it's the humble Canadian in me, but I do think **calling me "King" puts me on too much of a pedesta**l.
 
-By calling me _The King_, it puts me on top.
+By calling me *The King*, it puts me on top.
 
 It means I'm the best and that others are below me.
 
@@ -29,9 +28,9 @@ And that is so far from the truth.
 
 ## Sure, I know what I'm doing, but...
 
-I've been writing CSS as a part of my job for over a decade now, and I've been teaching it for ~7 years, so I should hope **I know what I'm doing with CSS, but that is very different from being _The King_**.
+I've been writing CSS as a part of my job for over a decade now, and I've been teaching it for ~7 years, so I should hope **I know what I'm doing with CSS, but that is very different from being *The King***.
 
-I try my best to take everything I learn and teach it in as approachable way as possible. Because of that, for some people, I'm their go-to CSS resource. It's kind of mind-blowing the think about, but I'm also so thrilled I can help so many people.
+I try my best to take everything I learn and teach it in as approachable way as possible. Because of that, for some people, I'm their go-to CSS resource. It's kind of mind-blowing to think about, but I'm also so thrilled I can help so many people.
 
 But I didn't get here on my own.
 
@@ -43,7 +42,7 @@ That's probably the wrong phrase because the giants are still around and helping
 
 My own YouTube channel started to gain traction when I put out some early content on CSS Grid. **I learned pretty much everything in those videos from [Jen Simmons](https://twitter.com/jensimmons) and [Rachel Andrew](https://twitter.com/rachelandrew)**, who both know more about CSS than I ever will, and have both had—and continue to have—a significant influence on where CSS and the web are today.
 
-**I had my eyes opened to the creativity of CSS when I read [Lea Verrou](https://twitter.com/LeaVerou)'s _[CSS Secrets](https://www.amazon.com/CSS-Secrets-Lea-Verou/dp/1449372635?tag=leaverou-20)_ book** and continue to learn from—and be amazed by—the content that she puts out.
+**I had my eyes opened to the creativity of CSS when I read [Lea Verrou](https://twitter.com/LeaVerou)'s *[CSS Secrets](https://www.amazon.com/CSS-Secrets-Lea-Verou/dp/1449372635?tag=leaverou-20)* book** and continue to learn from—and be amazed by—the content that she puts out.
 
 **I've learned an incredible amount from [Andy Bell](https://twitter.com/piccalilli_)**, picking up ideas from his [tutorials](https://piccalil.li/tutorials/) and courses, not to mention the fantastic [Every Layout](https://every-layout.dev/) he created with **[Heydon Pickering](https://twitter.com/heydonworks)**. And speaking of Heydon, I'm a massive fan of his [webbed briefs video series](https://briefs.video/), as well as his strong advocacy for accessibility.
 
@@ -65,7 +64,7 @@ I'm always learning from these brilliant people and wouldn't know 10% of what I 
 
 What has helped me become a face in the world of CSS is that, for whatever reason, **my approach and style of teaching seem to click for many people**.
 
-That doesn't make me _The King_; it just makes me a good communicator 😊.
+That doesn't make me *The King*; it just makes me a good communicator 😊.
 
 ## More points of view are so important
 
@@ -81,6 +80,6 @@ See what multiple people are up to, see what they do similarly, and do different
 
 It might seem a bit silly to be writing 1000 words about how I'm not entirely comfortable with a title people have started to call me, specially when it's meant as a compliment. As I said off the top, I appreciate the compliment, but I don't like the feel of it. It's not meant to undermine anyone, but I feel like it doesn't acknowledge or include all the others out there.
 
-Maybe there are a lot of princes and princesses of CSS, or gurus or sensei's or whatever else you'd like to go with... but King... in a world as inclusive as the internet is, where so many people share so much amazing information, and where there is _always_ someone better than you, _The King_ just doesn't seem to be the right fit.
+Maybe there are a lot of princes and princesses of CSS, or gurus or sensei's or whatever else you'd like to go with... but King... in a world as inclusive as the internet is, where so many people share so much amazing information, and where there is *always* someone better than you, *The King* just doesn't seem to be the right fit.
 
 So yes, along with all those other people I've mentioned, I bring something to the table. For a lot of people, I manage to make CSS something less frustrating, and hopefully even something that they enjoy. That makes me really happy, but it sure as heck doesn't make me the King of anything 😊.
