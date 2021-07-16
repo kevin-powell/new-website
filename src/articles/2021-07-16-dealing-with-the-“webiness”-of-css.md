@@ -4,7 +4,7 @@ description: CSS is something that you can write with confidence. There is a
   logic behind it, and it can make sense. It's different from other languages,
   but embrace how it's meant to work instead of fighting against it, you'll
   start having a much better time with it.
-date: 2021-07-16T14:10:20.192Z
+date: 2021-08-04T14:10:20.192Z
 ---
 **CSS is hard because we don’t have total control over the output**. We have to tell the browser our intended output, and then depending on a ton of variables, it gives the user the best it can.
 
