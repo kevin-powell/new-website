@@ -6,6 +6,8 @@ description: CSS is something that you can write with confidence. There is a
   start having a much better time with it.
 date: 2021-08-04T14:10:20.192Z
 ---
+<br>
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Ktw5g24YPWk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 **CSS is hard because we don’t have total control over the output**. We have to tell the browser our intended output, and then depending on a ton of variables, it gives the user the best it can.
