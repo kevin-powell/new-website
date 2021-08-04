@@ -1,8 +1,8 @@
 ---
-title: "CSS Demystified"
+title: CSS Demystified
 premium: true
-link: "https://cssdemystified.com"
-open: false
+link: https://cssdemystified.com
+open: true
 ---
 
 **Start writing CSS with confidence!**
