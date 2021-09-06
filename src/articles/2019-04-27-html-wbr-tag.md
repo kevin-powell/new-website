@@ -1,6 +1,7 @@
 ---
-title: The &lt;wbr&gt; tag and when you might want to use it
+title: The <wbr> tag and when you might want to use it
 description: the <wbr> HTML tag is a bit obscure, but it can come in handy
+date: 2021-09-06T16:36:22.159Z
 ---
 
 The `<wbr>` tag is the type of thing that I originally created my articles for in the first place: [An obscure HTML/CSS _thing_](https://www.kevinpowell.co/article/there-is-a-turn-unit-in-css/) that, while [it might not come up often](https://www.kevinpowell.co/article/background-attachment-local/), can really come in handy!
