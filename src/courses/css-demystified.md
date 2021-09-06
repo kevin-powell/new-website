@@ -1,7 +1,7 @@
 ---
-title: "CSS Demystified"
+title: CSS Demystified
 premium: true
-link: "https://cssdemystified.com"
+link: https://cssdemystified.com
 open: false
 ---
 
