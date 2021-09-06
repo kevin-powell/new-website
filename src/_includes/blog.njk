@@ -4,7 +4,7 @@ layout: base.njk
 
 <article class="article-full flow">
   <header>
-    <h1 class="title">{{title}}</h1>
+    <h1 class="title">{{title | safe}}</h1>
   </header>
   {{ content | safe }}
 </article>
