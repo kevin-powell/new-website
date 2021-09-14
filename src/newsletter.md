@@ -2,9 +2,12 @@
 title: newsletter
 layout: pages
 class: community
+eleventyNavigation:
+  key: Newsletter
+  order: 900
 ---
 
-<h2 class="page-description">Fun little tips & tricks, delivered every Sunday</h2>
+<h2 class="page-description">Updates, little tips & tricks, and awesome resources delivered every Sunday</h2>
 
 <script src="https://f.convertkit.com/ckjs/ck.5.js"></script>
 <form action="https://app.convertkit.com/forms/948172/subscriptions" class="seva-form formkit-form cta cta--short cta__form" method="post" data-sv-form="948172" data-uid="c1cef76ca5" data-format="inline" data-version="5" data-options="{&quot;settings&quot;:{&quot;after_subscribe&quot;:{&quot;action&quot;:&quot;redirect&quot;,&quot;redirect_url&quot;:&quot;https://www.kevinpowell.co/newsletter-success/&quot;,&quot;success_message&quot;:&quot;Success! Now check your email to confirm your subscription.&quot;},&quot;return_visitor&quot;:{&quot;action&quot;:&quot;show&quot;,&quot;custom_content&quot;:&quot;&quot;},&quot;recaptcha&quot;:{&quot;enabled&quot;:false}}}"
@@ -16,8 +19,7 @@ class: community
     </div>
     <div class="formkit-subheader" data-element="subheader" style="color: rgb(104, 104, 104); font-size: 18px;">
       <p>If you never want to miss out on my YouTube videos or articles here on my site, subscribe to my newsletter! </p>
-      <p>It's one email every Sunday to keep you up to date with what I've been up to, plus I'll throw in some bonus stuff every now and then that
-        I don't post anywhere else :)</p>
+      <p>It's one email every Sunday to keep you up to date with what I've been up to, plus I'll throw in some bonus stuff every now and then that I don't post anywhere else :)</p>
     </div>
     <ul class="formkit-alert formkit-alert-error" data-element="errors" data-group="alert"></ul>
     <div data-element="fields" data-stacked="true" class="seva-fields formkit-fields cta__grid">
