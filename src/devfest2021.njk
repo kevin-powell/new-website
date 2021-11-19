@@ -1,0 +1,45 @@
+---
+title: DevFest 2021 - flexbox vs grid
+---
+
+
+<!DOCTYPE html>
+<html lang="en">
+		<head>
+				<meta charset="UTF-8">
+				<meta name="viewport" content="width=device-width, initial-scale=1.0">
+				<title>{{ title }}</title>
+				<meta http-equiv="X-UA-Compatible" content="ie=edge">
+				<meta name="description" content="{% if description %}{{ description }}{% else %}My name is Kevin and I teach people how to make the web and how to make it look good while they are at it.{% endif %}">
+
+				<meta property="og:title" content="{% if social-title %}{{ social-title }}{% else %}{{ title }} | {{ title }}{% endif %}">
+				<meta property="og:description" content="{% if social-description %}{{ social-description }}{% elif  description %}{{description}}{% else %}{{ description }}{% endif %}">
+				<meta property="og:url" content="{{ page.url | url | absoluteUrl(metadata.url) }}">
+				<meta property="og:image" content="{% if social-image %}{{ social-image }}{% else %}{{ site.url | url | absoluteUrl(metadata.url) }}img/brand-icon.png{% endif %}">
+				<meta name="twitter:image" content="{% if social-image %}{{ social-image }}{% else %}{{ site.url | url | absoluteUrl(metadata.url) }}img/brand-icon.png{% endif %}">
+				<meta name="twitter:card" content="summary_large_image">
+				<link rel="icon" href="/favicon.ico">
+				<link rel="stylesheet" href="{{ '/css/style.css' | url }}"/>
+
+		</head>
+		<body class="{{ bodyClass }}" style="place-content: center; grid-template: auto / auto">
+				
+				<main id="main-content" class="flow">
+          <h1>{{ title }}</h1>
+          <h2>The slides & codepens</h2>  
+          <ul class="devfest-resources">
+            <li><a href="https://docs.google.com/presentation/d/e/2PACX-1vSby1hOff60xZs45gpY-1XGVk8E2NdmvPYkDio8LBA9ioKi8QV9OKKMmznNlAixri--ojUK1Z-XfxM2/pub?start=false&loop=false&delayms=3000">Slides</a></li>
+            <li><a href="https://codepen.io/kevinpowell/pen/eYEXvjz">Simple compaison</a></li>
+            <li><a href="https://codepen.io/kevinpowell/pen/vYJvGqg">Navigation comparison</a></li>
+            <li><a href="https://codepen.io/kevinpowell/pen/KKvbMKr">Cards comparison</a></li>
+          </ul>
+				</main>
+
+	
+
+				<script src="https://cdn.usefathom.com/script.js" data-site="XICAVCWK"></script>
+				{% if '/courses' in page.url%}
+						<script src="/js/main.js"></script>
+				{% endif %}
+		</body>
+</html>
