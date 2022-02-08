@@ -5,5 +5,6 @@
   "spellright.documentTypes": [
     "latex",
     "plaintext"
-  ]
+  ],
+  "liveServer.settings.port": 5501
 }
