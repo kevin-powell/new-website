@@ -1,11 +1,11 @@
 ---
-title: "Sass: From hello world to real world"
+title: Beyond CSS
 premium: true
-link: https://learnsass.com
+link: https://beyondcss.dev/
 open: false
 ---
-This course is a deep dive into the world of Sass, as well as advanced CSS.
+Authoring stylesheets is about more than simply writing a few lines of CSS these days. 
 
-Starting at the *very* basics of Sass, slowly but surely we add new tools to our repitoire and deep dive to make sure we understand how the Sass/SCSS that we are writing is compiled into CSS the browser can understand. 
+We have pre-processors, post-processors, design systems, and many different naming conventions.
 
-This isn't just about learning how Sass works, but we create real projects along the way as well.
+In this course I'll be looking at using Sass to develope reusable design systems, explore sane naming convetions, and use tools like Vite and PostCSS to optimize your builds.
