@@ -2,7 +2,7 @@
 title: CSS Demystified
 premium: true
 link: https://cssdemystified.com
-open: false
+open: true
 ---
 
 **Start writing CSS with confidence!**
