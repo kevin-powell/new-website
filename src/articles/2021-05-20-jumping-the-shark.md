@@ -60,4 +60,4 @@ Not because people don't like it. I'm not here to make people happy. I am here t
 
 Whether we like it or not, seeing more sensationalized content over educational content will change people's perspective on the value that comes from a certain source, and I just need to keep that in mind in the future. 
 
-And if you'd like to be a part of the sillier stuff from time to time, do give me a follow on [Twitch](twitch.tv/kevinpowellcss) (which is full of non-silly stuff as well!), and if not, then that's cool.
+And if you'd like to be a part of the sillier stuff from time to time, do give me a follow on [Twitch](https://twitch.tv/kevinpowellcss) (which is full of non-silly stuff as well!), and if not, then that's cool.
