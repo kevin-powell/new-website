@@ -1,13 +1,16 @@
 # Redirects from what the browser requests to what we serve
-# /youtube            https://www.youtube.com/kevinpowell                   302!
-/learn-sass           https://www.kevinpowell.co/courses                    302!
-/sass-course          https://www.kevinpowell.co/courses                    302!
-/membership           https://pages.convertkit.com/a30501c964/8d1c15b4b1    302!
-/learn-responsive     https://scrimba.com/g/gresponsive       
-/demystify            https://cssdemystified.com
-/sass                 https://learnsass.com
-/flexbox              https://flexboxsimplified.com
-/discord              https://discord.gg/9Rc6WNhNGJ
-/responsive           https://courses.kevinpowell.co/conquering-responsive-layouts
-/bol-css              https://622f4508a9277900082e4137--loving-bhabha-45c5d9.netlify.app/
-/responsive-css       https://6233e59fe8493b0008a35f4f--loving-bhabha-45c5d9.netlify.app/
+
+# /youtube https://www.youtube.com/kevinpowell 302!
+
+/learn-sass https://www.kevinpowell.co/courses 302!
+/sass-course https://www.kevinpowell.co/courses 302!
+/membership https://pages.convertkit.com/a30501c964/8d1c15b4b1 302!
+/learn-responsive https://scrimba.com/g/gresponsive  
+/demystify https://cssdemystified.com
+/sass https://learnsass.com
+/flexbox https://flexboxsimplified.com
+/discord https://discord.gg/9Rc6WNhNGJ
+/responsive https://courses.kevinpowell.co/conquering-responsive-layouts
+/bol-css https://622f4508a9277900082e4137--loving-bhabha-45c5d9.netlify.app/
+/css-cafe https://css-cafe-flexbox-grid-slides.netlify.app/
+/responsive-css https://6233e59fe8493b0008a35f4f--loving-bhabha-45c5d9.netlify.app/
