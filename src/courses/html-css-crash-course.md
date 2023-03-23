@@ -1,7 +1,7 @@
 ---
 title: "HTML & CSS Crash Course"
 premium: false
-link: "https://scrimba.com/learn/htmlcss"
+link: "https://scrimba.com/learn/introhtmlcss"
 open: true
 ---
 
