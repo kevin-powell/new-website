@@ -2,7 +2,7 @@
 title: Beyond CSS
 premium: true
 link: https://beyondcss.dev/
-open: false
+open: true
 ---
 Authoring stylesheets is about more than simply writing a few lines of CSS these days. 
 
