@@ -21,7 +21,7 @@ About 18 months ago I’d decided that I was going to start trying to land some 
 
 I took the following picture just before going on stage, as I was thinking _that’s a lot of people_.
 
-![A fully packed crowd](img/css-day-talk/before-getting-on-stage.jpg)
+![A fully packed crowd](../../img/css-day-talk/before-getting-on-stage.jpg)
 
 I probably shouldn’t have been thinking about that, but it was hard not to be as I looked out as I waited to go on stage!
 
@@ -37,7 +37,7 @@ When the MC for the day, Miriam Suzanne (who is one of those people I’ve learn
 
 I had been flip-flopping on whether or not to open with that, but based on the audience reaction, as well as the comments people gave me afterwards, it was definitely the right call!
 
-![View from behind the stage as I'm starting my talk, with the full crowd in front of me](img/css-day-talk/the-crowd.jpg)
+![View from behind the stage as I'm starting my talk, with the full crowd in front of me](../../img/css-day-talk/the-crowd.jpg)
 
 Looking back, **I wish I’d been a little more enthusiastic with it, but at that point I was so nervous I was was lucky to get it out at all**.
 
@@ -49,7 +49,7 @@ I think realizing that my hand was shaking so much also made me realize I wasn�
 
 **Once I got past those first few slides and got into the flow of it, I started feeling a lot better.**
 
-![Me, on stage, giving my talk](img/css-day-talk/on-stage.jpg)
+![Me, on stage, giving my talk](../../img/css-day-talk/on-stage.jpg)
 
 ## Maybe I should have kept things simpler
 
