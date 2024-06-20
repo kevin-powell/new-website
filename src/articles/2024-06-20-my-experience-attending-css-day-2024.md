@@ -9,6 +9,8 @@ Last week, I posted about [my experience speaking at CSS Day 2024](https://www.k
 
 **The _best_ part about being a speaker, though, was finally being able to attend CSS Day!**
 
+<!--more-->
+
 This is a conference that I’ve had major FOMO every year it takes place.
 
 I’d see the amazing lineups every year, see all the social media posts from the attendees, and just wish I could be there… And this year, I've got to go!
