@@ -1,6 +1,5 @@
 ---
 title: Sass and BEM ftw
-layout: blog
 ---
 
 The parent selector in Sass is amazing. I love Sass for a lot of reasons, but this is a really big one (there are many other reasons I love Sass too, which is why [I made a course on it](https://www.kevinpowell.co/sass-course)).
