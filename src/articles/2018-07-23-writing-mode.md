@@ -1,5 +1,4 @@
 ---
-layout: blog
 title: writing-mode
 excerpt_separator: <!--more-->
 ---
