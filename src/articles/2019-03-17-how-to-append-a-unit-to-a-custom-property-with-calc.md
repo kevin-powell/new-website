@@ -45,7 +45,7 @@ In the case of using my `--scale`, it’ll multiply my unitless number by `1rem`
 
 ## Putting it to use
 
-Andy Bell recently posted a handy little trick on [how to control the size of your icons with](https://andy-bell.design/links/121/) `[font-size](https://andy-bell.design/links/121/)`. 
+Andy Bell recently posted a handy little trick on [how to control the size of your icons with `font-size`](https://andy-bell.design/links/121/). 
 
 This is cool, as you can easily set up icons to inherit the font-size from their parent like so:
 
