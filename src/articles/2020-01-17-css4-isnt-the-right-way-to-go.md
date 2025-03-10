@@ -17,17 +17,17 @@ I don't think it's the right idea though.
 
 <!--more-->
 
-If we market "CSS4", how long does that raise it's profile? A year? 6-months? Maybe less?
+If we market "CSS4", how long does that raise its profile? A year? 6-months? Maybe less?
 
 In this industry, there is constantly a new thing coming out. So while it might grab people's attention for a short time-frame, I don't think it'll have a lasting effect.
 
 ## Let's take advantage of how CSS is evolving now
 
-CSS was becoming really, really big as they continued to add to it back in the late 90s and early 2000s. This was slowing down it's development. 
+CSS was becoming really, really big as they continued to add to it back in the late 90s and early 2000s. This was slowing down its development. 
 
 To move to the next version, everything had to be reviewed and moved as one giant version update, which, with the size and scope of CSS3 meant that, if they kept that model, it would take *forever* before we ever saw another update.
 
-Which is why they broke everything into it's own module that can be updated on it's own. 
+Which is why they broke everything into its own module that can be updated on its own. 
 
 We didn't need to evolve to CSS4 to get grid, and boy, didn't grid take things by storm?
 
