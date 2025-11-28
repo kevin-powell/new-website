@@ -48,7 +48,7 @@ My own YouTube channel started to gain traction when I put out some early conten
 
 **[Miriam Suzanne](https://twitter.com/TerribleMia) helped change how I see and approach CSS with [a single, wonderful video](https://www.youtube.com/watch?v=aHUtMbJw8iA)**. She's now pushing CSS into the future and doing an elegant job explaining it all along the way.
 
-I'll clump **[Una Kravits](https://twitter.com/Una) and [Adam Argyle](https://twitter.com/argyleink)** together because of their amazing (and aptly named) [CSS Podcast](https://thecsspodcast.libsyn.com/). I honestly thought teaching something as visual as CSS was impossible in podcast form, but they proved me wrong in the best possible way. I've learned a lot from it, and it has influenced how I teach as well.
+I'll clump **[Una Kravets](https://twitter.com/Una) and [Adam Argyle](https://twitter.com/argyleink)** together because of their amazing (and aptly named) [CSS Podcast](https://thecsspodcast.libsyn.com/). I honestly thought teaching something as visual as CSS was impossible in podcast form, but they proved me wrong in the best possible way. I've learned a lot from it, and it has influenced how I teach as well.
 
 The two of them are up to a lot more than just that as well, with Una having one of my favourite YouTube series, [Designing in the Browser](https://www.youtube.com/playlist?list=PLNYkxOF6rcIDI0QtJvW6vKonTxn6azCsD), and Adam having [his own YouTube channel](https://www.youtube.com/channel/UCBGr3ZMcV5jke40_Wrv3fNA) and [GUI Challenges](https://www.youtube.com/playlist?list=PLNYkxOF6rcIAaV1wwI9540OC_3XoIzMjQ), to name a few of the many things he does to promote CSS.
 
